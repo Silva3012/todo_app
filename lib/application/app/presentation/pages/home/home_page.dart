@@ -4,12 +4,18 @@ import 'package:go_router/go_router.dart';
 import 'package:todo_app/application/app/presentation/pages/dashboard/dashboard_page.dart';
 import 'package:todo_app/application/app/presentation/pages/overview/overview_page.dart';
 import 'package:todo_app/application/app/presentation/pages/task/task_page.dart';
+import 'package:todo_app/application/core/page_config.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({
     super.key,
     required String tab,
   }) : index = tabs.indexWhere((element) => element.name == tab);
+
+  static const pageConfig = PageConfig(
+    icon: Icons.home_rounded,
+    name: 'home',
+  );
 
   final int index;
 
