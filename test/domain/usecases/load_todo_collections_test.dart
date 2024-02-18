@@ -36,12 +36,12 @@ void main() {
 
   // Test case: should load todo collections from the repository
   test("should load todo collections from the repository", () async {
-    // Arrange: Define the behavior of the mock repostory method
+    // Arrange: Define the behavior of the mock repository method
     when(mockToDoRepository.readToDoCollections())
         .thenAnswer((_) async => Right(todoCollectionList));
 
     // Act: Call the use case
-    final result = await useCase(NoParams());
+    final result = await useCase.call(NoParams());
 
     // Assert: Verify the result and interactions with the mock repository
     expect(
