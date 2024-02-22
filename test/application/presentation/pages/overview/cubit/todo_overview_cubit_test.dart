@@ -2,7 +2,7 @@ import 'package:either_dart/either.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:bloc_test/bloc_test.dart';
 import 'package:mockito/mockito.dart';
-import 'package:todo_app/application/app/presentation/pages/overview/cubit/to_do_overview_cubit.dart';
+import 'package:todo_app/application/app/pages/overview/cubit/to_do_overview_cubit.dart';
 import 'package:todo_app/core/use_case.dart';
 import 'package:todo_app/domain/usecases/load_todo_collections.dart';
 
