@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_adaptive_scaffold/flutter_adaptive_scaffold.dart';
 import 'package:go_router/go_router.dart';
-import 'package:todo_app/application/app/presentation/pages/dashboard/dashboard_page.dart';
-import 'package:todo_app/application/app/presentation/pages/overview/overview_page.dart';
-import 'package:todo_app/application/app/presentation/pages/task/task_page.dart';
+import 'package:todo_app/application/app/pages/dashboard/dashboard_page.dart';
+import 'package:todo_app/application/app/pages/overview/overview_page.dart';
+import 'package:todo_app/application/app/pages/task/task_page.dart';
 import 'package:todo_app/application/core/page_config.dart';
 
 class HomePage extends StatefulWidget {

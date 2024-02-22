@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:todo_app/application/app/presentation/pages/overview/cubit/to_do_overview_cubit.dart';
+import 'package:todo_app/application/app/pages/overview/cubit/to_do_overview_cubit.dart';
 import 'package:todo_app/domain/entities/todo_collection.dart';
 import 'package:todo_app/domain/entities/todo_color.dart';
 import 'package:todo_app/domain/entities/unique_id.dart';

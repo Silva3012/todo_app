@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:todo_app/application/app/presentation/pages/overview/cubit/to_do_overview_cubit.dart';
-import 'package:todo_app/application/app/presentation/pages/overview/view_states/todo_overview_error.dart';
-import 'package:todo_app/application/app/presentation/pages/overview/view_states/todo_overview_loaded.dart';
-import 'package:todo_app/application/app/presentation/pages/overview/view_states/todo_overview_loading.dart';
+import 'package:todo_app/application/app/pages/overview/cubit/to_do_overview_cubit.dart';
+import 'package:todo_app/application/app/pages/overview/view_states/todo_overview_error.dart';
+import 'package:todo_app/application/app/pages/overview/view_states/todo_overview_loaded.dart';
+import 'package:todo_app/application/app/pages/overview/view_states/todo_overview_loading.dart';
 import 'package:todo_app/application/core/page_config.dart';
 import 'package:todo_app/domain/usecases/load_todo_collections.dart';
 
