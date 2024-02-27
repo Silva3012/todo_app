@@ -18,4 +18,17 @@ class ToDoEntry {
       isDone: false,
     );
   }
+
+  ToDoEntry copyWith({
+    String? description,
+    bool? isDone,
+  }) {
+    return ToDoEntry(
+      id: id,
+      description: description ?? this.description,
+      isDone: isDone ?? this.isDone,
+    );
+  }
+
+  List<Object?> get props => [id, isDone, description];
 }
